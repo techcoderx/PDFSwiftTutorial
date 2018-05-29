@@ -12,6 +12,8 @@
 		4797F4CF1E7545D4009D19C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797F4CD1E7545D4009D19C6 /* Main.storyboard */; };
 		4797F4D11E7545D4009D19C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4797F4D01E7545D4009D19C6 /* Assets.xcassets */; };
 		4797F4D41E7545D4009D19C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797F4D21E7545D4009D19C6 /* LaunchScreen.storyboard */; };
+		4797F4DC1E7546B0009D19C6 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797F4DB1E7546B0009D19C6 /* PDFViewController.swift */; };
+		4797F4DE1E75495E009D19C6 /* 12inch_MacBook_PER_Mar2015.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4797F4DD1E75495E009D19C6 /* 12inch_MacBook_PER_Mar2015.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4797F4D01E7545D4009D19C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4797F4D31E7545D4009D19C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4797F4D51E7545D4009D19C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4797F4DB1E7546B0009D19C6 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		4797F4DD1E75495E009D19C6 /* 12inch_MacBook_PER_Mar2015.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 12inch_MacBook_PER_Mar2015.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				4797F4C91E7545D4009D19C6 /* AppDelegate.swift */,
 				4797F4CB1E7545D4009D19C6 /* ViewController.swift */,
+				4797F4DB1E7546B0009D19C6 /* PDFViewController.swift */,
 				4797F4CD1E7545D4009D19C6 /* Main.storyboard */,
 				4797F4D01E7545D4009D19C6 /* Assets.xcassets */,
 				4797F4D21E7545D4009D19C6 /* LaunchScreen.storyboard */,
 				4797F4D51E7545D4009D19C6 /* Info.plist */,
+				4797F4DD1E75495E009D19C6 /* 12inch_MacBook_PER_Mar2015.pdf */,
 			);
 			path = pdfSwiftExample;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				4797F4D41E7545D4009D19C6 /* LaunchScreen.storyboard in Resources */,
 				4797F4D11E7545D4009D19C6 /* Assets.xcassets in Resources */,
 				4797F4CF1E7545D4009D19C6 /* Main.storyboard in Resources */,
+				4797F4DE1E75495E009D19C6 /* 12inch_MacBook_PER_Mar2015.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4797F4DC1E7546B0009D19C6 /* PDFViewController.swift in Sources */,
 				4797F4CC1E7545D4009D19C6 /* ViewController.swift in Sources */,
 				4797F4CA1E7545D4009D19C6 /* AppDelegate.swift in Sources */,
 			);
